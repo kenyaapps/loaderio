@@ -1,0 +1,5 @@
+env/
+docs/
+*.pyc
+dist/
+pyloader.egg-info
