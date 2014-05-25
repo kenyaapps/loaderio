@@ -5,21 +5,21 @@ def read(fname):
 
 setup(
     name = "Loaderio",
-    version = "0.1.3.2",
+    version = "0.1.4",
     author = "Felix Cheruiyot",
     author_email = "felix@kenyaapps.net",
     description = ("Python api wrapper for loader.io."),
     license = "MIT",
     keywords = "loader.io loader load balancing",
-    url = "https://github.com/kenyaapps/pyloader.git",
+    url = "https://github.com/kenyaapps/loaderio.git",
     packages=['loaderio', 'loaderio/resources', 'tests'],
     long_description=read('README.md'),
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: Internet :: WWW/HTTP",
-        "License :: OSI Approved :: BSD License",
+        "License :: OSI Approved :: MIT License",
     ],
     install_requires=[
-	'requests == 2.0.1'
+	   'requests == 2.0.1'
     ]
 )
