@@ -2,15 +2,15 @@ Pyloader
 ===========================================
 Python wrapper for loader.io api v2
 
-** Installation
+## Installation
     pip install pyloader
 
-** How to use
-Go to go loader.io [http://docs.loader.io/api/intro.html] for more details on api resources.
+## How to use
+Go to go [loader.io]: http://docs.loader.io/api/intro.html for more details on api resources.
 
-*** Resources
+## Resources
 
-*** Applications
+### Applications
 
 ```
 	loader = Pyloader('API_KEY')
@@ -19,3 +19,6 @@ Go to go loader.io [http://docs.loader.io/api/intro.html] for more details on ap
 	print loader.apps.get('app_id')
 	print loader.apps.verify('app_id', method = 'http')
 	print loader.apps.delete('app_id')
+```
+
+### Tests
