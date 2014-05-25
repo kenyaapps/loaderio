@@ -4,19 +4,19 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name = "pyloader",
+    name = "Loaderio",
     version = "0.1",
     author = "Felix Cheruiyot",
-    author_email = "felixc@kenyaapps.net",
+    author_email = "felix@kenyaapps.net",
     description = ("Python api wrapper for loader.io."),
     license = "BSD",
     keywords = "loader.io loader load balancing",
     url = "https://github.com/kenyaapps/pyloader.git",
-    packages=['pyloader', 'pyloader/resources', 'tests'],
-    long_description=read('README.rst'),
+    packages=['loaderio', 'loaderio/resources', 'tests'],
+    long_description=read('README.md'),
     classifiers=[
         "Development Status :: 3 - Alpha",
-        "Topic :: API",
+        "Topic :: Internet :: WWW/HTTP",
         "License :: OSI Approved :: BSD License",
     ],
     install_requires=[

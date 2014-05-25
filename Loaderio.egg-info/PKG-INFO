@@ -1,0 +1,35 @@
+Metadata-Version: 1.1
+Name: Loaderio
+Version: 0.1
+Summary: Python api wrapper for loader.io.
+Home-page: https://github.com/kenyaapps/pyloader.git
+Author: Felix Cheruiyot
+Author-email: felix@kenyaapps.net
+License: BSD
+Description: Pyloader
+        ===========================================
+        Python wrapper for loader.io api v2
+        
+        ** Installation
+            pip install pyloader
+        
+        ** How to use
+        Go to go loader.io [http://docs.loader.io/api/intro.html] for more details on api resources.
+        
+        *** Resources
+        
+        *** Applications
+        
+        ```
+        	loader = Pyloader('API_KEY')
+        	print loader.apps.list()
+        	print loader.apps.create('www.example.com')
+        	print loader.apps.get('app_id')
+        	print loader.apps.verify('app_id', method = 'http')
+        	print loader.apps.delete('app_id')
+        
+Keywords: loader.io loader load balancing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: License :: OSI Approved :: BSD License
