@@ -1,6 +1,5 @@
 import os
 from setuptools import setup
-
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
@@ -13,11 +12,14 @@ setup(
     license = "BSD",
     keywords = "loader.io loader load balancing",
     url = "https://github.com/kenyaapps/pyloader.git",
-    packages=['pyloader', 'tests'],
+    packages=['pyloader', 'pyloader/resources', 'tests'],
     long_description=read('README.rst'),
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Topic :: API",
         "License :: OSI Approved :: BSD License",
     ],
+    install_requires=[
+	'requests == 2.0.1'
+    ]
 )
