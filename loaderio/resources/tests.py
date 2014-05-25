@@ -1,4 +1,4 @@
-from resources.client import Client
+from loaderio.resources.client import Client
 
 class Tests(Client):
 	"""

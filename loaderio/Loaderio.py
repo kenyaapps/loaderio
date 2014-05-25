@@ -1,8 +1,8 @@
-from resources.client import Client
-from resources.apps import Apps
-from resources.results import Results
-from resources.servers import Servers
-from resources.tests import Tests
+from loaderio.resources.client import Client
+from loaderio.resources.apps import Apps
+from loaderio.resources.results import Results
+from loaderio.resources.servers import Servers
+from loaderio.resources.tests import Tests
 
 
 class Loaderio():

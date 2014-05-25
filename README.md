@@ -1,19 +1,21 @@
-Pyloader
+Loaderio
 ===========================================
 Python wrapper for loader.io api v2
 
 ## Installation
-    pip install pyloader
+```pip install loaderio```
 
 ## How to use
-Go to go [loader.io]: http://docs.loader.io/api/intro.html for more details on api resources.
+Go to go [Loaderio][] for more details on api resources.
 
 ## Resources
 
 ### Applications
 
 ```
-	loader = Pyloader('API_KEY')
+	from loaderio.Loaderio import Loaderio	
+	loader = Loaderio('API_KEY')
+	
 	print loader.apps.list()
 	print loader.apps.create('www.example.com')
 	print loader.apps.get('app_id')
@@ -22,3 +24,7 @@ Go to go [loader.io]: http://docs.loader.io/api/intro.html for more details on a
 ```
 
 ### Tests
+
+
+
+[Loaderio]: http://docs.loader.io/api/intro.html        "Loader.io"
