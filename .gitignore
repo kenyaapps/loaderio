@@ -2,4 +2,4 @@ env/
 docs/
 *.pyc
 dist/
-pyloader.egg-info
+Loaderio.egg-info

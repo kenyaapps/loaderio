@@ -1,10 +1,10 @@
 Metadata-Version: 1.1
-Name: Pyloader
+Name: pyloader
 Version: 0.1
 Summary: Python api wrapper for loader.io.
 Home-page: https://github.com/kenyaapps/pyloader.git
 Author: Felix Cheruiyot
-Author-email: felix@kenyaapps.net
+Author-email: kantwk@gmail.com
 License: BSD
 Description: Pyloader
         ===========================================
