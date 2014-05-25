@@ -9,7 +9,7 @@ setup(
     author = "Felix Cheruiyot",
     author_email = "felix@kenyaapps.net",
     description = ("Python api wrapper for loader.io."),
-    license = "BSD",
+    license = "MIT",
     keywords = "loader.io loader load balancing",
     url = "https://github.com/kenyaapps/pyloader.git",
     packages=['loaderio', 'loaderio/resources', 'tests'],

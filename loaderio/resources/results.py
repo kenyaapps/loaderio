@@ -8,8 +8,8 @@ class Results(Client):
 		Client.__init__(self, api_key)
 		pass
 
-	def list(self):
-		pass
+	def list(self, test_id):
+		return self.request('GET', 'tests/'+test_id+'/results')
 
-	def get_result(self, results_id):
-		pass
+	def get(self, test_id, results_id):
+		return self.request('GET', 'tests/'+test_id+'/results/'+results_id)

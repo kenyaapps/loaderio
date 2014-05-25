@@ -9,4 +9,4 @@ class Servers(Client):
 		pass
 
 	def list(self):
-		pass
+		return self.request('GET', 'servers')
