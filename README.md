@@ -16,21 +16,22 @@ Go to go [Loaderio][] for more details on api resources.
 	from loaderio.Loaderio import Loaderio	
 	loader = Loaderio('API_KEY')
 	
-	print loader.apps.list()
-	print loader.apps.create('www.example.com')
-	print loader.apps.get('app_id')
-	print loader.apps.verify('app_id', method = 'http')
-	print loader.apps.delete('app_id')
+	loader.apps.list()
+	loader.apps.create('www.example.com')
+	loader.apps.get('app_id')
+	loader.apps.verify('app_id', method = 'http')
+	loader.apps.delete('app_id')
 ```
 
 ### Tests
 
 ```
 	#Get tests list
-	print loader.tests.list()
+	loader.tests.list()
 
 	#Create test
 	#Note: You can add more url options as per api docs
+	
 	loader.tests.name = 'Gonna crush yah!'
 	loader.tests.test_type = 'Non-Cycling'
 	loader.tests.total = 400
