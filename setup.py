@@ -5,7 +5,7 @@ def read(fname):
 
 setup(
     name = "Loaderio",
-    version = "1.0.0",
+    version = "1.0.2",
     author = "Felix Cheruiyot",
     author_email = "felix@kenyaapps.net",
     description = ("Python api wrapper for loader.io."),

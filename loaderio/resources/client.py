@@ -22,7 +22,6 @@ class Client():
 				response = requests.delete(self.url+resource, headers = headers)
 			
 			if response is not None:
-				print response.text
 				return response.json()
 					
 		except Exception, e:
