@@ -5,7 +5,7 @@ def read(fname):
 
 setup(
     name = "Loaderio",
-    version = "0.1.4",
+    version = "1.0.0",
     author = "Felix Cheruiyot",
     author_email = "felix@kenyaapps.net",
     description = ("Python api wrapper for loader.io."),
@@ -15,7 +15,7 @@ setup(
     packages=['loaderio', 'loaderio/resources', 'tests'],
     long_description=read('README.md'),
     classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 4 - Beta",
         "Topic :: Internet :: WWW/HTTP",
         "License :: OSI Approved :: MIT License",
     ],
