@@ -1,12 +1,12 @@
 Loaderio
 ===========================================
-Python wrapper for loader.io api v2
+Python wrapper for [loader.io] api v2
 
 ## Installation
 ```pip install loaderio```
 
 ## How to use
-Go to go [Loaderio][] for more details on api resources.
+Go to [loader.io API docs][] for more details on api resources.
 
 ## Resources
 
@@ -55,7 +55,7 @@ Go to go [Loaderio][] for more details on api resources.
 
 ### Servers
 ```
-	loader.servers.list(test_id)
+	loader.servers.list()
 ```
 
 ##License
@@ -68,4 +68,5 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-[Loaderio]: http://docs.loader.io/api/intro.html        "Loader.io"
+[loader.io]: https://loader.io
+[loader.io API docs]: http://docs.loader.io/api/intro.html        "Loader.io"
