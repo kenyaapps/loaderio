@@ -7,7 +7,7 @@ setup(
     name = "Loaderio",
     version = "1.0.2",
     author = "Felix Cheruiyot",
-    author_email = "felix@kenyaapps.net",
+    author_email = "felix.cheruiyot@kenyaapps.net",
     description = ("Python api wrapper for loader.io."),
     license = "MIT",
     keywords = "loader.io loader load balancing",
