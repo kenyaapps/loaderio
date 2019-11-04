@@ -20,6 +20,6 @@ setup(
         "License :: OSI Approved :: MIT License",
     ],
     install_requires=[
-	   'requests == 2.0.1'
+	   'requests == 2.20.0'
     ]
 )
